@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",  
+SESSION_ID: process.env.SESSION_ID || "hYYjFIBY#jeQ257kAqX2KiPk1ZgyMRqXZq3cxqbNT28MNRgl1tN0",  
 //chatbot integration 
 CHATBOT: getConfig("CHATBOT") || "on",
 // add your Session Id 
@@ -37,7 +37,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 ALIVE_IMG: getConfig("ALIVE_IMG") || "https://files.catbox.moe/84jssf.jpg",
 // add custom menu image url
-PREFIX: getConfig("PREFIX") || ".", 
+PREFIX: getConfig("PREFIX") || "/", 
 // add your prifix for bot   
 BOT_NAME: getConfig("BOT_NAME") || "ʀᴀʜᴍᴀɴ-ᴍᴅ",
 // add bot namw here for menu
@@ -64,7 +64,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
 // false or true for anti bad words 
 ANTI_BOT: process.env.ANTI_BOT || "true",
-MODE: getConfig("MODE") || "public",
+MODE: getConfig("MODE") || "private",
 // make bot public-private-inbox-group 
 ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "off",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
